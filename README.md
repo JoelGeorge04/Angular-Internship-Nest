@@ -1,27 +1,5 @@
-Angular Internship at Nest
-📅 Duration
-Start Date: [Insert Start Date]
-End Date: [Insert End Date]
-💼 Responsibilities
-Developed responsive UI components using Angular.
-Integrated APIs in collaboration with backend teams.
-Fixed bugs and wrote unit tests for reliability.
-Worked with Angular CLI, RxJS, and TypeScript.
-🛠️ Key Projects
-[Project Name]
+# Angular Internship at Nest 
 
-Description: [Brief about the project].
-Technologies Used: Angular, TypeScript, SCSS.
-[Project Name]
+I completed an on-site internship at Nest, where I gained hands-on experience in Angular development. During the internship, I worked on building responsive UI components, integrating APIs with backend systems, and ensuring application reliability through bug fixes and unit tests. I utilized tools and technologies such as Angular CLI, RxJS, and TypeScript, and collaborated with the team in an Agile environment.  
 
-Description: [Brief about the project].
-Technologies Used: Angular, HTML5, CSS3.
-🌟 Key Learnings
-Mastered Angular components, services, and routing.
-Improved debugging and code optimization skills.
-Learned to collaborate in an Agile environment.
-📈 Outcomes
-Delivered quality features and improved application performance.
-
-🤝 Acknowledgment
-Grateful to Nest for the guidance and hands-on experience!
+Several projects were completed during this period, all of which are included in this repository. These projects applied modern web development practices to deliver high-quality solutions. This experience significantly enhanced my understanding of Angular components, services, routing, and debugging, enabling me to contribute effectively to the team's goals. I am grateful for the mentorship and guidance provided by the Nest team throughout the internship.
