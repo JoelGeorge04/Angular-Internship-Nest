@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://tse1.mm.bing.net/th?id=OIP.RaQ5xi_dPt01ChrYknm-qwHaFx&pid=Api&P=0&h=220"
+        type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="left">
+            <img class="log" src="https://tse1.mm.bing.net/th?id=OIP.RaQ5xi_dPt01ChrYknm-qwHaFx&pid=Api&P=0&h=220"
+                style="border-radius: 65px; padding: 5px;" height="90px" width="90px" alt="">
+        </div>
+        <div class="right">
+            <span>Home</span>
+            <span><a class="link" href="#about">About</a></span>
+            <span><a class="link" href="#skills">Skills</a></span>
+            <span><a class="link" href="#edu">Education</span>
+        </div>
+    </div>
+    <div class="intro">
+        <h1 class="introhead" id="autoType"></h1>
+    </div>
+    <!-- About section -->
+
+    <div class="abtcontent">
+        <div class="abt" id="about">
+            <h1 class="abthead">About Me</h1>
+            <p class="abtpara">I am Joel George, a passionate and dedicated computer science student exploring the world
+                of technology and design. Always eager to learn and grow, I aim to create innovative solutions that make
+                a difference.</p>
+        </div>
+
+        <div class="loc">
+            <h1 id="location">Location:</h1><br>
+            <iframe id="map"
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3925.8115341796793!2d76.37771407451149!3d10.276764268212384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2sin!4v1734839573097!5m2!1sen!2sin"
+                width="700" height="340" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <!-- Skill section -->
+    <div id="skills" class="skill">
+        <h2 class="myskill">My Skills</h2>
+        <ul class="skill-list">
+            <li class="skill-item">
+                <span class="icon">&#x1F4BB;</span> <!-- Computer icon -->
+                Frontend Development (HTML, CSS, JavaScript)
+            </li>
+            <li class="skill-item">
+                <span class="icon">&#x1F4C8;</span> <!-- Node.js icon -->
+                Backend Development (Node.js, Express, PHP)
+            </li>
+            <li class="skill-item">
+                <span class="icon">&#x1F4D1;</span> <!-- Database icon -->
+                Database Management (MySQL, PostgreSQL)
+            </li>
+            <li class="skill-item">
+                <span class="icon">&#x1F4C1;</span> <!-- Git icon -->
+                Version Control (Git, GitHub)
+            </li>
+            <li class="skill-item">
+                <span class="icon">&#x1F4D3;</span> <!-- Android icon -->
+                Android App Development (Android Studio + Java + XML + Firebase)
+            </li>
+        </ul>
+    </div>
+    <!-- Education section -->
+    <div id="edu" class="edu">
+        <h2 class="education">Education</h2>
+        <div class="edu-content">
+            <div class="edu-item">
+                <h3 class="edu-head">Education : Bachelor of Technology</h3>
+                <p class="edu-para">Degree : Computer Science and Design Engineering</p>
+                <p class="edu-para">
+                    <span class="edu-span">Institution : </span> FISAT, Kerala
+                <p class="edu-para">
+                    <span class="edu-span">Year of Completion :</span> 2026
+                </p>
+                <p class="edu-para">
+                    <span class="edu-span">CGPA : </span> 9.20
+                </p>
+                <p class="edu-para">
+                    <span class="edu-span">Work Experience : </span> Internship at Nest,Kakkanad.
+                </p>
+            </div>
+        </div>
+
+
+            <div class="fed">
+                <h1 class="feedback">Feedback:</h1>
+                <div class="form">
+                    <form action="" method="POST">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" required placeholder="Your Name">
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" required placeholder="Your Email">
+
+                        <label for="message">Message:</label>
+                        <input type="text" id="message" required placeholder="Your Message">
+
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <script>
+                const text = "Hi, I'm Joel George.";
+                let i = 0;
+                const speed = 150;
+                const element = document.getElementById("autoType");
+
+                function type() {
+                    if (i < text.length) {
+                        element.innerHTML += text.charAt(i);
+                        i++;
+                        setTimeout(type, speed);
+                    }
+                }
+
+                type(); 
+            </script>
+</body>
+
+</html>

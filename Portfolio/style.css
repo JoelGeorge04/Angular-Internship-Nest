@@ -1,0 +1,334 @@
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            color: #333;
+            background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+        }
+
+        .intro{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .intro:hover{
+            transition: all 0.5s ease-in-out;
+            background: linear-gradient(135deg, #bdc9dd, #f5f7fa);
+            border: 1px solid #333;
+            font-size: 100px;
+        }
+        .introhead{
+            text-align: center;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 7rem;
+            background: linear-gradient(90deg, #2d2dc2, #f70505);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .introhead:hover{
+            transition: all 0.5s ease-in-out;
+            font-size: 100px;
+        }
+        .main {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding:4px;
+            background: #333;
+            color: #fff;
+        }
+         .right span {
+            margin: 0 10px;
+        }
+        .right{
+            font-size: 20px;
+            margin-right: -950px;
+        }
+
+        .right a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 400;
+        }
+
+        .right :hover {
+            border-radius: 40px;
+            padding: 10px;
+            transition: all 0.4s ease-in-out;
+            background-color: #0663fa;
+            border: 0.5px solid black;
+        }
+     
+        .abtcontent{
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .abtcontent:hover{
+            transition: all 0.5s ease-in-out;
+            background: linear-gradient(135deg, #bdc9dd, #f5f7fa);
+            border: 1px solid #333;
+            font-size: 2%;
+        }
+        .loc{
+
+            margin-top: -40px;
+        }
+        .loc:hover{
+            font-size: 20px;
+            transition: all 0.5s ease-in-out;
+        }
+
+        #location{
+            color: #3059ab ;
+            font-size: 40px;
+        }
+        #location:hover{
+            font-size: 50px;
+            transition: all 0.5s ease-in-out;
+        }
+        #map{
+            margin-top: -30px;
+        }
+        .abt{
+            margin: 40px auto;
+            max-width: 800px;
+            text-align: center;
+            border-radius: 30px;
+        }
+        .abthead, .abtpara{
+
+            font-size: 20px;
+            transition: all 1.5s ease-in-out;
+            
+        }
+        .abthead {
+            font-size: 3rem;
+            color: #333 ;
+            margin-bottom: 10px;
+        }
+        .abthead:hover{
+            font-size: 35px;
+            transition: all 0.5s ease-in-out;
+            text-decoration:underline;;
+        }
+        .abtpara {
+            color: #555;
+            margin: 20px 0;
+            font-size: 20px;
+        }
+        .abtpara {
+            color: #555;
+            margin: 20px 0;
+            font-size: 20px;
+        }
+        
+        .skill{
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .skill:hover{
+            transition: all 0.5s ease-in-out;
+            background: linear-gradient(135deg, #bdc9dd, #f5f7fa);
+            border: 1px solid #333;
+            font-size: 2%;
+
+        }
+        .myskill{
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 50px;
+            color: #555;
+            transition: all 1.5s ease-in-out;
+        }
+        .myskill:hover{
+            font-size: 60px;
+            transition: all 0.5s ease-in-out;
+            text-decoration:underline;;
+        }
+        .skill-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            font-size: 1.2rem;
+            margin: 15px 0;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease-in-out;
+        }
+        
+        .skill-item:hover {
+            background-color: #0663fa;
+            color: #fff;
+            transform: scale(1.05);
+        }
+        
+        .skill-item .icon {
+            font-size: 1.5rem;
+            color: #333;
+        }
+        
+        .skill-item:hover .icon {
+            color: #fff;
+        }
+        
+        .form {
+            margin: 40px auto;
+            max-width: 800px;
+            text-align: center;
+        }
+
+      
+        .log:hover{
+            background: linear-gradient(90deg, #2d2dc2, #f70505);
+            border: 0.1px solid #fff;
+            color: #fff;
+            transition: all 0.5s ease-in-out;
+        }
+        iframe {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: #ddd;
+            margin: 40px 0;
+        }
+        .fed{
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .fed:hover{
+            transition: all 0.5s ease-in-out;
+            background: linear-gradient(135deg, #bdc9dd, #f5f7fa);
+            border: 1px solid #333;
+            font-size: 2%;
+        }
+        .feedback{
+            color: #555;
+            margin: 40px auto;
+            max-width: 800px;
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 50px;
+        }
+        .feedback:hover{
+            transition: all 0.5s ease-in-out;
+            font-size: 60px;
+            text-decoration:underline;;
+        }
+       
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 10px;
+            border: 2px dotted #525151;
+            border-radius: 20px;
+            padding: 32px;
+        }
+        .form:hover{
+            border: 2px dotted #525151;
+            border-radius: 20px;
+            padding: 32px;
+            
+            transition: all 0.5s ease-in-out;
+        }
+
+        form label {
+            font-size: 1rem;
+            font-weight: 400;
+        }
+
+        form input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+       
+        form button {
+            padding: 10px 20px;
+            background: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        form button:hover {
+            background: #555;
+        }
+
+        .main, .abt,.abtcontent, .form {
+            animation: fadeIn 0.5s ease;
+        }
+
+        /* fade in and out animation */
+        @keyframes fadeIn {        
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .edu{
+            justify-content: center;
+            align-items: center;
+            height: 140vh;
+            text-align: center;
+        }
+        .edu:hover{
+            transition: all 0.5s ease-in-out;
+            background: linear-gradient(135deg, #bdc9dd, #f5f7fa);
+            border: 1px solid #333;
+            font-size: 2%;
+        }
+        .education{
+            color: #555;
+            margin: 40px auto;
+            max-width: 800px;
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 60px;
+        }
+        .education:hover{
+            transition: all 0.5s ease-in-out;
+            font-size: 70px;
+            text-decoration:underline;;
+        }
+        .edu-item{
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            font-size: 1.2rem;
+            margin: 15px 0;
+            padding: 10px;
+            background-color: #cdd0d1;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease-in-out;   
+        }
+        .edu-content{
+            font-size: 22px;
+            padding: 50px;
+        }
+        .edu-content:hover{
+            transition: all 0.5s ease-in-out;
+            font-size: 25px;
+        }
