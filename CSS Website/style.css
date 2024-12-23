@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#Welcome{
+    margin-top: 20px;
+    padding: 20px;
+}
+#carouselExample{
+    border: 3px solid  rgb(52, 50, 50);
+}
+#carouselExample img{
+    height: 600px;
+    width: 100%;
+}
+#card{
+    padding: 25px;
+    border: 3px solid rgb(52, 50, 50);
+}
+.p-3{
+    padding: 25px;
+    background-color: antiquewhite;
+    border-radius: 12px;
+    margin-top: 14px;
+    font-size: larger;
+    color: rgb(37, 6, 239);
+}
