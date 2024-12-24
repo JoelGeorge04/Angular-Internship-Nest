@@ -1,0 +1,15 @@
+<div class="background">
+  <div>
+    <h1 class="head">Indian Tourism</h1>
+  </div>
+  <div style="margin-top: -250px; padding: 0px; width: auto; height: auto;">
+    <owl-carousel-o [options]="customOptions">
+      <ng-container *ngFor="let slide of slidesStore">
+        <ng-template carouselSlide [id]="slide.id.toString()">
+          
+          <img style="border-radius: 10px; width: 100px; height: 100px;" [src]="slide.src" [alt]="slide.alt" [title]="slide.title" />
+        </ng-template>
+      </ng-container>
+    </owl-carousel-o>
+  </div>
+</div>
